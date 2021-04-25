@@ -1,18 +1,10 @@
-import React, { Component } from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  Text,
-  View,
-} from 'react-native';
+import React from 'react';
+import {View, Text} from 'react-native';
 
-export default class App extends Component {
-  render() {
-    return (
-        <View>
-           <Text>Hello World !</Text>
-           <Text>Thành Jang</Text>
-        </View>
-    );
-  }
+export default function App() {
+  return (
+    <View>
+      <Text>fury</Text>
+    </View>
+  );
 }
